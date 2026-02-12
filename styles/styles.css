@@ -1,0 +1,21 @@
+body {
+    background-color: rgba(21, 168, 197, 0.2);
+    background-image: url("https://img.freepik.com/free-vector/matrix-style-binary-code-digital-falling-numbers-blue-background_1017-37387.jpg?semt=ais_user_personalization&w=740&q=80");
+    background-size: cover;       
+    background-repeat: no-repeat; 
+    background-position: center;  
+    min-height: 100vh;         
+    margin: 0;                    
+    font-family: Arial, sans-serif;
+}
+
+h1 {
+    color: white;                 /* Easier to read on background */
+    text-align: center;
+    margin: 20px;
+    text-shadow: 2px 2px 5px black; /* Makes text pop */
+}
+ p{
+    color: turquoise;
+    
+ }
