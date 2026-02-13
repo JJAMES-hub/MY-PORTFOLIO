@@ -1,21 +1,72 @@
 body {
     background-color: rgba(21, 168, 197, 0.2);
     background-image: url("https://img.freepik.com/free-vector/matrix-style-binary-code-digital-falling-numbers-blue-background_1017-37387.jpg?semt=ais_user_personalization&w=740&q=80");
-    background-size: cover;       
-    background-repeat: no-repeat; 
-    background-position: center;  
-    min-height: 100vh;         
-    margin: 0;                    
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    min-height: 100vh;
+    margin: 0;
     font-family: Arial, sans-serif;
+
 }
 
-h1 {
-    color: white;                 /* Easier to read on background */
-    text-align: center;
-    margin: 20px;
-    text-shadow: 2px 2px 5px black; /* Makes text pop */
-}
- p{
-    color: turquoise;
+/* h1 {
+    color: rgb(150, 26, 26);
+    text-align: left;
+    margin: auto;
+    p.outset {border-style: outset;}
+margin 50px;
     
- }
+}
+
+p {
+    color: turquoise;
+   border-style: solid;
+   border-color:#15bd66
+   text align: left;
+    margin: 30px
+
+
+} */
+
+.profile-img {
+    display: block;
+    margin: 0 auto;
+margin-top: 30px;
+
+
+}   
+
+nav {
+    width: auto;
+    background-color: aquamarine;
+    border: #04AA6D solid 3px;
+    justify-content: center;
+    top: 0;
+    width: 100%;
+    left: 0;
+    position: fixed;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    background-color: #34f1f4;
+    display: flex;
+}
+
+ul li a {
+    display: block;
+    color: white;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+ul li a:hover {
+    background-color: #15bd66;
+}
+
+ul li a.active {
+    background-color: #04AA6D;
+}
