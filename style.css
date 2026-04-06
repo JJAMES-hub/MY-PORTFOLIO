@@ -1,11 +1,42 @@
-.navigation{
-  text-align: center;
-  color: red;
+:root {
+  --text: #000;
 }
-section {
-  padding: 80px 20px;
+
+body {
+  background: rgba(44, 211, 237, 0.203);
+  font-family: 'Segoe UI', sans-serif;
+  min-height: 100vh;
+  
 }
-#home {
-  text-align: center;
-  color: red;
+
+.navigation {
+  background-color: rgba(173, 216, 230, 0.9); /* lightblue with opacity */
+  color: var(--text); 
+ border: 3px outset green;
+padding: 12px;
+border-radius: 10px;
+ margin-top: 3px;
+ font-size: large;
+ border: none;
+}
+#home{
+  padding-top: 78px;
+  line-height: 0.8;
+  margin-top:170px;
+}
+.goals{
+  font-size: 25px;
+}
+.name1{
+  padding-left: 10px;
+margin-top:30px;
+color: aqua;
+text-align: left;
+font-size: 80px;
+}
+.name2{
+  padding-left: 10px;
+  color: #000;
+  text-align: left;
+ font-size: 80px;
 }
